@@ -76,10 +76,10 @@ public class MovieService {
         s.setShowTime(showTime);
         s.setEndTime(endTime);
         s.setStatus(status);
-        System.out.println("Show Details added successfully.");
+        System.out.println("Show Details added successfully..");
 
         ShowValidator.validator(s);
-        System.out.println("validated successfully.");
+        System.out.println("validated successfully..");
 
         showDAO.createShow(s);
         System.out.println("Show Created..");
